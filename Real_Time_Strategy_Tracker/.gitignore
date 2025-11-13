@@ -1,0 +1,9 @@
+# Ignore virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Ignore large data and model files
+01_Data/01_Raw/*
+01_Data/02_Cleaned/*
+04_Models/*
