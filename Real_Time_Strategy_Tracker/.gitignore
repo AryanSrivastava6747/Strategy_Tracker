@@ -5,5 +5,6 @@ __pycache__/
 
 # Ignore large data and model files
 01_Data/01_Raw/*
-01_Data/02_Cleaned/*
+!01_Data/01_Raw/.gitkeep  # EXCEPTION: Track the gitkeep file
 04_Models/*
+!04_Models/.gitkeep       # EXCEPTION: Track the gitkeep file
